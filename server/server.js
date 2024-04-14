@@ -26,6 +26,6 @@ app.post("/message", function (request, response) {
 
 //check it's connected to the port
 
-// app.listen(8080, function () {
-//   console.log("running on 8080?");
-// });
+app.listen(8080, function () {
+  console.log("running on 8080?");
+});
